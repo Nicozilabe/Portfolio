@@ -15,7 +15,7 @@ nav ul {
   display: flex;
   background-color: grey;
   border-radius: 25px;
-  padding: 20px;
+  padding-inline: 5%;
   list-style: none;
   gap: 7px;
   margin-right: 20px;

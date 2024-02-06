@@ -323,12 +323,13 @@ footer ul {
     flex-direction: column;
     font-size: x-large;
     gap: 3px;
+    padding-left: 0%;
     flex-wrap: wrap;
     justify-content: center;
   }
   footer ul li {
     display: flex;
-    align-self: baseline;
+    align-self: center;
     justify-content: center;
     background-color: black;
     color: whitesmoke;

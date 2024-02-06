@@ -304,6 +304,11 @@ footer ul {
     margin-top: 5px;
     align-items: center;
   }
+  .titulo-foot {
+    padding: 2%;
+    align-self: center;
+    justify-self: center;
+  }
   footer h3 {
     display: flex;
     align-self: center;
@@ -311,7 +316,8 @@ footer ul {
     margin: 5px;
     background-color: black;
     color: whitesmoke;
-    width: 85%;
+    padding-left: 0%;
+    width: 72%;
     padding-left: 13%;
     font-size: xx-large;
     border-radius: 25px;

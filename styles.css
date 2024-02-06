@@ -6,6 +6,8 @@
 
 body {
   background-color: rgb(161, 161, 165);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
   text-decoration: none;
@@ -67,8 +69,6 @@ nav ul {
   width: 18%;
   font-size: 200%;
   border-radius: 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .parrafo1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -188,4 +188,135 @@ footer ul li {
 }
 footer ul {
   gap: 3px;
+}
+@media (max-width: 768px) {
+  .tit {
+    display: flex;
+    align-self: center;
+    padding-inline: 4%;
+    justify-content: center;
+    margin: 5px;
+    background-color: black;
+    color: whitesmoke;
+    width: 37%;
+    font-size: 200%;
+    border-radius: 25px;
+  }
+  .parrafo1 {
+    align-self: center;
+    display: flex;
+    background-color: rgba(61, 61, 61, 0.705);
+    border-radius: 25px;
+    justify-content: center;
+    font-size: x-large;
+    width: 75%;
+    padding: 5px;
+  }
+  .parrafo2 {
+    padding: 5px;
+    align-self: center;
+    display: flex;
+    background-color: rgba(61, 61, 61, 0.705);
+    border-radius: 25px;
+    justify-content: center;
+    font-size: x-large;
+    width: 90%;
+  }
+  .Trabajos h2 {
+    display: flex;
+      background-color: grey;
+      width: 28%;
+      border-radius: 20px;
+      margin-left: 5%;
+      justify-content: center;
+  }
+  .TE{
+    display: flex;
+    background-color: rgb(136, 132, 132);
+    border-radius: 25px;
+    padding: 10px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .TE1 {
+    background-color: darkgrey;
+    border-radius: 15px;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+  }
+  .TE1 h3{
+    display: flex;
+      background-color: rgb(80, 77, 77);
+      width: 33%;
+      border-radius: 20px;
+      margin-left: 5%;
+      justify-content: center;
+  }
+  .TE1 p{
+    display: flex;
+      background-color: rgb(80, 77, 77);
+      width: 88%;
+      border-radius: 20px;
+      height: fit-content;
+     align-content: flex-start;
+     padding: 2.5%;
+     margin: 3px;
+  }
+  .TE1 div{
+    display: flex;
+    padding-bottom: 4.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+
+  }
+  .TE1 div img {
+    width: 150px;
+    margin-top: 3%;
+  }
+  footer {
+    border-radius: 25px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-top: 5px;
+  }
+  footer h3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: black;
+    color: whitesmoke;
+    width: 25%;
+    font-size: xx-large;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  footer ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    flex-direction: row;
+    font-size: x-large;
+  }
+  footer ul li {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding-right: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  footer ul {
+    gap: 3px;
+  }
 }

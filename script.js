@@ -4,7 +4,7 @@
 
 let cont_tit = "Acerca de mí";
 
-let tit = document.querySelectorAll('.tit');
+let tit = document.querySelector('.tit');
 tit.innerHTML = cont_tit;
 
 let texttit = tit.innerHTML;
